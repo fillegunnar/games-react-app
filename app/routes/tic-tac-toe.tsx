@@ -1,6 +1,5 @@
-import type { Route } from './+types/tic-tac-toe';
-import { TicTacToe } from '~/tic-tac-toe/tic-tac-toe';
-
+import { TicTacToe } from "~/pages/tic-tac-toe/tic-tac-toe";
+import type { Route } from "./+types/tic-tac-toe";
 
 export function meta({}: Route.MetaArgs) {
   return [
