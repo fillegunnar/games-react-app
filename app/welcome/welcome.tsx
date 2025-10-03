@@ -16,6 +16,14 @@ export function Welcome() {
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
               Get started by exploring the app!
             </p>
+            <div className="flex flex-col gap-3">
+              <a
+                href="/tic-tac-toe"
+                className="block rounded-lg border border-gray-200 p-4 text-center hover:bg-gray-100"
+              >
+                Play Tic Tac Toe
+              </a>
+            </div>
           </nav>
         </div>
       </div>
