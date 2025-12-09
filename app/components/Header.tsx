@@ -18,12 +18,16 @@ export function Header() {
           <nav className="flex space-x-8">
             <Link
               to="/"
+              aria-selected={location.pathname === "/"}
+              data-testid="home-link"
               className={navButtonStyle(location.pathname === "/")}
             >
               Home
             </Link>
             <Link
               to="/tic-tac-toe"
+              data-testid="tic-tac-toe-link"
+              aria-selected={location.pathname === "/tic-tac-toe"}
               className={navButtonStyle(location.pathname === "/tic-tac-toe")}
             >
               Tic Tac Toe
